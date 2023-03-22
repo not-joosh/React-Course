@@ -1,0 +1,8 @@
+html, body {
+  font-family: cursive;
+  margin: 0%;
+  text-align: center;
+  justify-content: space-between;
+  background: linear-gradient(to left, #380303, #383838);
+  color: white;
+}

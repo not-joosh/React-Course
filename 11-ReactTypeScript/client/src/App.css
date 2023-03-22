@@ -1,0 +1,11 @@
+html, body {
+  margin: 0%;
+  font-family: cursive;
+  background: linear-gradient(to left, #4f4f4f, #380404);
+  text-align: center;
+  justify-content: space-between;
+  color: white;
+}
+li {
+  list-style-type: none;
+}
