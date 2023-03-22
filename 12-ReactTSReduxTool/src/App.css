@@ -1,0 +1,7 @@
+html, body {
+  font-family: cursive;
+  background: linear-gradient(to left, #560505, #444343);
+  color: white;
+  text-align: center;
+  justify-content: space-between;
+}
