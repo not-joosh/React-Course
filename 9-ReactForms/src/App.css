@@ -1,0 +1,16 @@
+* {
+  color: white;
+}
+html, body {
+  background: linear-gradient(to right, #222222, #333333);
+  font-family: cursive;
+  margin: 0%;
+  text-align: center;
+  justify-content: center;
+}
+input {
+  color: black;
+}
+p {
+  color: red;
+}
