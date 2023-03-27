@@ -1,6 +1,6 @@
 # Getting Started with Create React App
-##### Tabbage App BackUp
-
+# Tabbage App BackUp
+### This project was created for Software Design class @ USC. Git Contributions on main repository not-joosh/tabbage
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
