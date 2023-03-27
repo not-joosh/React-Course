@@ -1,0 +1,25 @@
+CRUD CHEAT SHEET:
+import { db, auth } from './config/firebase';
+import { getDocs, addDocs, collections, query, where} from 'firebase/firestore'
+    RAED AND WRITE:
+        const data = await getDocs(userAssetsRef); // accessing the data to read and write
+        const filteredData = data.docs.map((doc) => ({...doc.data(), id: doc.id}));
+
+        writing:
+        const [milk, setMilk] = useState([]);
+        setMilk(filteredData);
+        {milk.map((milkDoc) => {
+            return (
+                <div>
+                    {milkDoc.booleanVariable}
+                </div>
+            )
+        })}
+    CREATE:
+         await addDoc(userAssetsRef, {
+            username: inputData.userName,
+            email: inputData.email,
+            password: inputData.password,
+            accountType: inputData.accountType,
+        });
+            
